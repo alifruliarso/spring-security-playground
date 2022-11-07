@@ -1,0 +1,14 @@
+auth:
+  basic:
+    username: 'webmaster'
+    password: 'pass123'
+  jwt:
+    hmacKey: 'secret'
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+spring:
+  websecurity:
+    debug: true
